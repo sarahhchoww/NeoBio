@@ -201,7 +201,7 @@
     
     <div class="message received" style="background: none; padding: 0; box-shadow: none;">
         <img src="image/sadgif.gif" alt="Received image" 
-        style="max-width: 150px; width: 100%;
+        style="max-width: 60px; width: 100%;
         border-radius: 8px;">
     </div>
 
