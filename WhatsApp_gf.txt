@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat - 女朋友</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #e5ddd5;
+            background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header Area */
+        .header {
+            background-color: #075e54;
+            color: white;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .user-info h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .user-info p {
+            margin: 0;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        /* Chat Container */
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Date Divider */
+        .date-divider {
+            align-self: center;
+            background-color: #d1f4fd;
+            padding: 5px 12px;
+            border-radius: 7px;
+            font-size: 12px;
+            color: #555;
+            margin: 20px 0;
+            box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+            text-transform: uppercase;
+        }
+
+        /* Message Bubbles */
+        .message {
+            max-width: 70%;
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            position: relative;
+            font-size: 14.5px;
+            line-height: 1.4;
+            box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+        }
+
+        .sent {
+            align-self: flex-end;
+            background-color: #dcf8c6;
+        }
+
+        .received {
+            align-self: flex-start;
+            background-color: #ffffff;
+        }
+
+        .time {
+            font-size: 11px;
+            color: #888;
+            margin-left: 10px;
+            float: right;
+            margin-top: 5px;
+        }
+
+        .ticks {
+            color: #34b7f1;
+            margin-left: 3px;
+            font-weight: bold;
+        }
+
+	.ticks-black {
+            color: #C3C3C3;
+            margin-left: 3px;
+            font-weight: bold;
+        }
+
+        /* Footer Input Area (Static) */
+        .footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-box {
+            background-color: white;
+            flex: 1;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="avatar">?</div>
+    <div class="user-info">
+        <h3>女朋友</h3>
+ 
+    </div>
+</div>
+
+<div class="chat-container">
+    
+    <div class="date-divider">2075年4月1日</div>
+    
+    <div class="message sent">
+        唉，又做埋啲無聊嘢🥱
+        <span class="time">11:32AM <span class="ticks">✓✓</span></span>
+    </div>
+    
+    <div class="message sent">
+        日日都係咁
+        <span class="time">11:32AM <span class="ticks">✓✓</span></span>
+    </div>
+    
+    <div class="message received">
+        你同咗你老豆講未呀
+        <span class="time">11:33AM</span>
+    </div>
+    
+
+    <div class="message sent">
+        完全冇機會，佢唔係開緊會就係出咗去見客
+        <span class="time">11:34AM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        每日都係咁
+        <span class="time">11:34AMPM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        邊有人咁對自己個仔
+        <span class="time">11:34AM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        佢如果都唔重視我，唔俾機會我
+        <span class="time">11:34AM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        都唔知留我係度做乜
+        <span class="time">11:35AM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        唉，算啦，再講
+        <span class="time">11:35AM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message received">
+        唔好諗咁多先
+        <span class="time">11:33AM</span>
+    </div>
+    
+    <div class="message received" style="background: none; padding: 0; box-shadow: none;">
+        <img src="https://giphy.com/explore/sad-hamster-meme" alt="Received image" style="max-width: 100%; border-radius: 8px;">
+    </div>
+
+    <div class="message received" style="padding: 4px 6px; text-align: center;">
+        <span class="time" style="float: none; margin-left: 0;">11:33AM</span>
+    </div>
+
+
+
+
+</div>
+
+<div class="footer">
+    <div class="input-box">輸入訊息...</div>
+</div>
+
+</body>
+</html>
