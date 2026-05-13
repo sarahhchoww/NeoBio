@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat - 女朋友</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #e5ddd5;
+            background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Header Area */
+        .header {
+            background-color: #075e54;
+            color: white;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            background-color: #ccc;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .user-info h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .user-info p {
+            margin: 0;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        /* Chat Container */
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Date Divider */
+        .date-divider {
+            align-self: center;
+            background-color: #d1f4fd;
+            padding: 5px 12px;
+            border-radius: 7px;
+            font-size: 12px;
+            color: #555;
+            margin: 20px 0;
+            box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+            text-transform: uppercase;
+        }
+
+        /* Message Bubbles */
+        .message {
+            max-width: 70%;
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            border-radius: 8px;
+            position: relative;
+            font-size: 14.5px;
+            line-height: 1.4;
+            box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+        }
+
+        .sent {
+            align-self: flex-end;
+            background-color: #dcf8c6;
+        }
+
+        .received {
+            align-self: flex-start;
+            background-color: #ffffff;
+        }
+
+        .time {
+            font-size: 11px;
+            color: #888;
+            margin-left: 10px;
+            float: right;
+            margin-top: 5px;
+        }
+
+        .ticks {
+            color: #34b7f1;
+            margin-left: 3px;
+            font-weight: bold;
+        }
+
+	.ticks-black {
+            color: #C3C3C3;
+            margin-left: 3px;
+            font-weight: bold;
+        }
+
+        /* Footer Input Area (Static) */
+        .footer {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-box {
+            background-color: white;
+            flex: 1;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="avatar">?</div>
+    <div class="user-info">
+        <h3>女朋友</h3>
+ 
+    </div>
+</div>
+
+<div class="chat-container">
+    
+    <div class="date-divider">2099年12月31日</div>
+    
+    <div class="message received">
+        你食完飯未啊？
+        <span class="time">14:04PM</span>
+    </div>
+
+    <div class="message sent">
+        我問咗佢，佢自己認咗
+        <span class="time">14:10PM <span class="ticks">✓✓</span></span>
+    </div>
+    
+    <div class="message received">
+        吓😔
+        <span class="time">14:10PM</span>
+    </div>
+
+    <div class="message sent">
+        係呀，confirm咗
+        <span class="time">14:10PM <span class="ticks">✓✓</span></span>
+    </div>
+    
+    <div class="message received">
+        佢有冇講點解要咁做？
+        <span class="time">14:11PM</span>
+    </div>
+    
+    <div class="message sent">
+        佢話覺得林嘉信可靠啲喎
+        <span class="time">14:11PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        我咪答返佢，依家邊個先係你嘅親生仔
+        <span class="time">14:11PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        佢竟然答我，話林嘉信做嘢好過我不知幾多
+        <span class="time">14:11PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        我真係火都黎埋，依家係邊個丟我埋去做admin，每日返工都冇嘢做
+        <span class="time">14:12PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        我又唔係冇問過老豆可唔可以入佢條team跟佢學嘢
+        <span class="time">14:12PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        佢咁樣決定，即係唔當我係佢個仔㗎啦！咁好囉，我都唔會再當佢係老豆㗎啦
+        <span class="time">14:12PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        佢遲啲唔好後悔啊！
+        <span class="time">14:12PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message received">
+        子朗啊，你唔好咁快就咁下定決心啦
+        <span class="time">14:13PM</span>
+    </div>
+
+    <div class="message sent">
+        其實我唔係今日先知㗎啦，我一早就估到啦
+        <span class="time">14:13PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message sent">
+        我一早就應該對佢狠心啲
+        <span class="time">14:13PM <span class="ticks">✓✓</span></span>
+    </div>
+
+    <div class="message received">
+        子朗啊，你咁講係咩意思啊
+        <span class="time">14:15PM</span>
+    </div>
+
+    <div class="message sent">
+        你唔洗知，我有分寸
+        <span class="time">14:17PM <span class="ticks">✓✓</span></span>
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <div class="input-box">輸入訊息...</div>
+</div>
+
+</body>
+</html>
