@@ -146,49 +146,22 @@
 
 <div class="chat-container">
     
-    <div class="date-divider">2099年10月6日</div>
+    <div class="date-divider">2099年11月24日</div>
     
     <div class="message sent">
-        老豆又叫咗佢個心腹入房講咗勁耐
-        <span class="time">15:48PM <span class="ticks">✓✓</span></span>
-    </div>
-    
-    <div class="message sent">
-        呢排成日都係咁
+        陳律師啱啱嚟咗，老豆好似要重新訂立信遺屬
         <span class="time">15:48PM <span class="ticks">✓✓</span></span>
     </div>
     
     <div class="message received">
-        你上次話經過嘅時候仲見到有好幾個著住西裝嘅人？
+        咁會點改呀？
         <span class="time">15:49PM</span>
     </div>
-    
 
     <div class="message sent">
-        係呀，我後來發現原來係老豆班律師
+        我聽唔到，但係聽到律師話要幾個月處理，到時再睇
         <span class="time">15:50PM <span class="ticks">✓✓</span></span>
     </div>
-
-    <div class="message sent">
-        我啱啱行過聽到佢地講緊啲股權，睇黎老豆想分多啲俾林嘉信
-        <span class="time">15:50PM <span class="ticks">✓✓</span></span>
-    </div>
-
-    <div class="message sent">
-        都唔明點解老豆信埋啲外人都唔交俾我
-        <span class="time">15:50PM <span class="ticks">✓✓</span></span>
-    </div>
-
-    <div class="message received">
-        你唔好咁唔開心住，依家未肯定嘅～
-        <span class="time">15:52PM</span>
-    </div>
-
-    <div class="message sent">
-        咁又係，遲啲搵日問老豆先
-        <span class="time">15:52PM <span class="ticks">✓✓</span></span>
-    </div>
-
 
 
 </div>
