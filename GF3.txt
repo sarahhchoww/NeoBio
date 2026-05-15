@@ -142,7 +142,7 @@
 <div class="header">
     <div class="avatar">?</div>
     <div class="user-info">
-        <h3>女朋友</h3>
+        <h3>老婆</h3>
  
     </div>
 </div>
@@ -172,7 +172,7 @@
     </div>
     
     <div class="message received">
-        咁牛依家諗住點？
+        咁你依家諗住點？
         <span class="time">14:11PM</span>
     </div>
     
