@@ -142,7 +142,7 @@
 <div class="header">
     <div class="avatar">?</div>
     <div class="user-info">
-        <h3>女朋友</h3>
+        <h3>老婆</h3>
  
     </div>
 </div>
